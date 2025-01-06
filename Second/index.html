@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shopping Calculator</title>
+</head>
+<body>
+    <h1>Shopping Calculator</h1>
+    <div class="container">
+        <div class="prices">
+            <p>Apple Price: <span id="price1">5000</span> Toman</p>
+            <p>Banana Price: <span id="price2">7000</span> Toman</p>
+            <p>Cherry Price: <span id="price3">1000</span> Toman</p>
+        </div>
+
+        <div class="input-group">
+            <input type="text" id="item1" placeholder="Enter item name (e.g., Apple)">
+            <input type="number" id="quantity1" placeholder="Enter quantity">
+            <div class="price-display" id="priceDisplay1"></div>
+        </div>
+
+        <div class="input-group">
+            <input type="text" id="item2" placeholder="Enter item name (e.g., Banana)">
+            <input type="number" id="quantity2" placeholder="Enter quantity">
+            <div class="price-display" id="priceDisplay2"></div>
+        </div>
+
+        <div class="input-group">
+            <input type="text" id="item3" placeholder="Enter item name (e.g., Cherry)">
+            <input type="number" id="quantity3" placeholder="Enter quantity">
+            <div class="price-display" id="priceDisplay3"></div>
+        </div>
+
+        <button id="calculateButton">Calculate Total</button>
+
+        <div class="result" id="result">Total Price: 0 Rials</div>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
