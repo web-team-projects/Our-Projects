@@ -20,28 +20,23 @@ label {
     display: block;
     margin: 10px 0 5px;
 }
-input {
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
 .input-group {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
-    position: relative;
 }
-input[type="text"], input[type="number"] {
-    width: 48%;
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
-.price-display {
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    font-size: 0.9em;
-    color: #555;
+input[type="text"] {
+    flex: 2;
+    margin-right: 10px;
+}
+input[type="number"] {
+    flex: 1;
 }
 button {
     margin: 10px 0;
